@@ -13,7 +13,8 @@ export default {
         'c-dark': "#2B2B2B",
         'c-accent': "#F8D57E",
         'c-primary': "#E5E5E5",
-        'c-secondary': "#898585"
+        'c-secondary': "#898585",
+        'c-darkLight': "#333333"
       }
     },
   },

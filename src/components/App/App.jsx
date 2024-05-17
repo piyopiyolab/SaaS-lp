@@ -4,7 +4,8 @@ import Hero from '../Hero/Hero'
 function App() {
 
   return (
-    <>
+
+    <div id="app">
       <Header />
 
 
@@ -12,7 +13,7 @@ function App() {
         <Hero />
 
       </main>
-    </>
+    </div>
   )
 }
 

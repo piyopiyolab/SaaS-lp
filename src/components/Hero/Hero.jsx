@@ -1,13 +1,20 @@
 import Button from "../Button/Button"
+import appImg from '/images/app-screenshot1.svg'
 
 
 function Hero() {
     return (
-        <section>
-            <h1 className="text-3xl">SaaS Landing Page Template</h1>
-            <p className="text-c-secondary my-8">This is a template for a SaaS Landing Page using React and TailwindCSS</p>
+        <section className="sm:flex items-center justify-between sm:gap-8">
+            <div>
+                <h1 className="text-3xl text-center sm:text-left">SaaS Landing Page Template</h1>
+                <p className="text-c-secondary my-10 text-center sm:text-left">This is a template for a SaaS Landing Page using React and TailwindCSS</p>
 
-            <Button color='accent' />
+                <Button color='accent' />
+            </div>
+
+            <div className="bg-c-darkLight rounded-xl mt-8 ">
+                <img className="block mx-auto" src={appImg} alt="Application demo preview" />
+            </div>
         </section>
     )
 }

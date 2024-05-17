@@ -13,3 +13,10 @@
         @apply my-8
     }
 }
+
+
+@layer utilities {
+    #app {
+        @apply container max-w-5xl mx-auto
+    }
+}
