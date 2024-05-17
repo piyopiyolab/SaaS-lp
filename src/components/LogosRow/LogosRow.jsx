@@ -6,16 +6,16 @@ function LogosRow() {
 
 
     return (
-        <section className='my-16 border-t-2 border-b-2 py-8 border-c-darkLight flex flex-wrap gap-6'>
+        <section className='my-16 border-t-2 border-b-2 py-8 border-c-darkLight flex flex-wrap gap-4'>
 
             {/* LOGO 1 */}
-            <div className="w-[16rem] h-[4rem] overflow-hidden inline-block">
+            <div className="w-[7.5rem] h-[2rem] sm:w-[16rem] sm:h-[4rem] overflow-hidden inline-block">
                 <Logo key={constants.logosData[0].name} name={constants.logosData[0].name} position={constants.logosData[0].position} />
             </div>
 
             {/* LOGO 2 */}
             <div className="
-                w-[4rem] h-[4rem] overflow-hidden inline-block">
+                w-[4rem] h-[4rem]  sm:w-[4rem] sm:h-[4rem] overflow-hidden inline-block">
                 <Logo key={constants.logosData[1].name} name={constants.logosData[1].name} position={constants.logosData[1].position} />
             </div>
         </section>
