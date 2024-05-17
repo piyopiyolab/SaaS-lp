@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        @apply font-Poppins bg-c-dark text-c-primary p-8
+    }
+    p{
+        @apply  text-c-primary
+    }
+    section {
+        @apply my-8
+    }
+}
