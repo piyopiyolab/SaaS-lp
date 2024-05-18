@@ -16,7 +16,17 @@
 
 
 @layer utilities {
-    #app {
+    #app, footer {
         @apply container max-w-5xl mx-auto
+    }
+    .c-btn { 
+        @apply px-6 py-2 rounded-lg shadow-md 
+
+    }
+    .c-btn-primary {
+        @apply  text-black bg-c-accent hover:bg-yellow-700
+    }
+    .c-btn-secondary {
+        @apply  text-black bg-c-accent-3 hover:bg-purple-700
     }
 }
