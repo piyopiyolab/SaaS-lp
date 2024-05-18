@@ -1,6 +1,6 @@
 import Button from "../Button/Button";
 import appImg from '/images/app-screenshot1.svg';
-import clsx from "clsx";
+import { motion } from "framer-motion"
 
 function Hero() {
     return (
@@ -15,9 +15,16 @@ function Hero() {
                 />
             </div>
 
-            <div className="bg-c-darkLight rounded-xl mt-8">
+
+
+            <motion.div
+                initial={{ opacity: 0, scale: 0.5 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.5 }}
+                className="bg-c-darkLight rounded-xl mt-8"
+            >
                 <img loading="lazy" className="block mx-auto" src={appImg} alt="Application demo preview" />
-            </div>
+            </motion.div>
         </section>
     );
 }
