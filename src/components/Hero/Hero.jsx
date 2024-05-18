@@ -16,7 +16,7 @@ function Hero() {
             </div>
 
             <div className="bg-c-darkLight rounded-xl mt-8">
-                <img className="block mx-auto" src={appImg} alt="Application demo preview" />
+                <img loading="lazy" className="block mx-auto" src={appImg} alt="Application demo preview" />
             </div>
         </section>
     );

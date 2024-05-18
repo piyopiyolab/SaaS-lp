@@ -11,6 +11,7 @@ function Reassurance() {
                     key={n.name}
                     className="text-center my-12 sm:basis-1/3">
                     <img
+                        loading="lazy"
                         className="block mx-auto"
                         src={n.src}
                         alt={n.alt} />

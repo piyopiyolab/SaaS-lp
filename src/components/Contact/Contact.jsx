@@ -9,7 +9,7 @@ function Contact() {
                 <p className="text-c-secondary my-10 ">Contact us through our 24/7 live chat. We’re always happy to help!</p>
                 <Button text='Get started' className={"c-btn c-btn-primary"} />
             </article>
-            <img className=" mt-8 lg:mt-0 lg:basis-1/2" src={contactImg} alt="Contact" />
+            <img loading="lazy" className=" mt-8 lg:mt-0 lg:basis-1/2" src={contactImg} alt="Contact" />
         </section>
     )
 }
