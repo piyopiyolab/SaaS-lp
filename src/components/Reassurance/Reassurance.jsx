@@ -55,7 +55,7 @@ function Reassurance() {
                             alt={n.alt}
                         />
                         <h2 className="my-4">{n.title}</h2>
-                        <p className="w-64 text-c-secondary mx-auto text-balance">
+                        <p className="max-w-64 text-c-secondary mx-auto text-balance">
                             {n.description}
                         </p>
                     </motion.article>
